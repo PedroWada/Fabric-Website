@@ -1,0 +1,17 @@
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-height: 75%;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h1{
+    font-size: 3em;
+}
+
