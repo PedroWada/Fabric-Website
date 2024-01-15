@@ -7,3 +7,10 @@ html, body, #root{
   background-color: #efefef;
   height: 100%;
 }
+button{
+  padding: 10px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+}
