@@ -12,7 +12,7 @@ export default function Navbar() {
                 <li className={styles.item}><Link to='/about'>About</Link></li>
                 <li className={styles.item}><Link to='/toDo'>To do App</Link></li>
                 <li className={styles.item}><Link to='/counter'>Counter</Link></li>
-                <li className={styles.item}><Link to='/fetch'>Fetching</Link></li>
+                <li className={styles.item}><Link to='/fetch'>Person</Link></li>
                 <li className={styles.item}><Link to='/excuser'>Excuser</Link></li>
                 <li className={styles.item}><Link to='/chuck'>Dog</Link></li>
                 <li className={styles.item}><Link to='/country'>Country</Link></li>

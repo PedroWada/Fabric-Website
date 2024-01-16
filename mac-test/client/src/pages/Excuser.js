@@ -13,6 +13,7 @@ export default function Excuser() {
 
     return (
         <div>
+            <h1>Excuser</h1>
             <button onClick={()=> fetchData('family')}>Family</button>
             <button onClick={()=> fetchData('party')}>Party</button>
             <button onClick={()=> fetchData('office')}>Office</button>

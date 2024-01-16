@@ -14,6 +14,7 @@ export default function Dog() {
     
     return(
         <div>
+            <h1>Random Dogs</h1>
             <button onClick={fetch}>Press</button>
             {dog !== null ?
            <img src={dog} alt='Cachorro' width='400'/> 

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState } from 'react'
 
-export default function Fetching(){
+export default function Person(){
     
     const [name, setName] = useState('')
     const [person, setPerson] = useState()
@@ -16,6 +16,7 @@ export default function Fetching(){
 
     return(
         <div>
+            <h1>Generate person</h1>
             <input type='text' placeholder='name:' onChange={(e) => setName(e.target.value)}/>
             <button onClick={fetchData}>generate</button>
             <p>Age: {person?.age}</p>

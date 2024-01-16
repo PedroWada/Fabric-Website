@@ -11,6 +11,7 @@ export default function Counter(){
     }
     return(
         <div>
+            <h1>Counter</h1>
             <h1>{counter}</h1>
             <button onClick={addCounter}>+</button>
             <button onClick={deleteCounter}>-</button>
